@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="../scss/bootstrap.css">
+
+    <!-- Aos stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
 
@@ -33,16 +36,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h1>About Me</h1>
+                        <div class="jumbotron jumbotron-fluid"
+                            style="background-image: url(../images/concrete-buildings-1619660.jpg);background-size: cover;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h1 class="display-4">Contact</h1>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <nav aria-label="breadcrumb" style="display: inline-block;">
+                                                    <ol class="breadcrumb" style="background: none; font-size: larger;">
+                                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                                                    </ol>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="row pt-4">
+            <div class="container px-4">
+                <div class="row my-2">
                     <div class="col">
-                        <h1>Contact</h1>
+                        <h1 class="display-4">Get in Touch!</h1>
                     </div>
                 </div>
                 <div class="row pb-4">
@@ -68,7 +88,7 @@
                             </div>
                             <div class="form-row py-3">
                                 <div class="col text-center">
-                                    <button type="submit" class="btn btn-primary w-50">Get in Touch</button>
+                                    <button type="submit" class="btn btn-primary w-50">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -80,21 +100,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="jumbotron jumbotron-fluid" style="background-image: url(../images/concrete-buildings-1619660.jpg);background-size: cover;">
+                        <div class="jumbotron jumbotron-fluid"
+                            style="background-image: url(../images/concrete-buildings-1619660.jpg);background-size: cover;">
                             <div class="container">
                                 <div class="row">
                                     <div class="col text-center">
-                                        <h1 class="display-4">Contact</h1>
+                                        <h1 class="display-4">Projects</h1>
                                         <div class="row">
                                             <div class="col text-center">
-                                                <nav aria-label="breadcrumb">
-                                                    <ol class="breadcrumb" style="background: none;">
-                                                        <li class="breadcrumb-item">
-                                                            <h1><a href="#">Home</a></h1>
-                                                        </li>
-                                                        <li class="breadcrumb-item active" aria-current="page">
-                                                            <h1>Contact</h1>
-                                                        </li>
+                                                <nav aria-label="breadcrumb" style="display: inline-block;">
+                                                    <ol class="breadcrumb" style="background: none; font-size: larger;">
+                                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                        <li class="breadcrumb-item active" aria-current="page">Projects</li>
                                                     </ol>
                                                 </nav>
                                             </div>
@@ -105,6 +122,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container px-3">
                 <div class="card-columns">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
@@ -173,6 +192,73 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="jumbotron jumbotron-fluid"
+                            style="background-image: url(../images/concrete-buildings-1619660.jpg);background-size: cover;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h1 class="display-4">About</h1>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <nav aria-label="breadcrumb" style="display: inline-block;">
+                                                    <ol class="breadcrumb" style="background: none; font-size: larger;">
+                                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                                                    </ol>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <article class="my-5 px-3">
+                    <div class="row">
+                        <div class="col-12 col-md-5 p-3" data-aos="fade-right">
+                            <img src="../images/london-s-eye-711193.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-7 p-5 p-md-3">
+                            <h1>2010</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore doloribus consectetur.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="my-5 px-3">
+                    <div class="row">
+                        <div class="col-12 col-md-5 p-3 d-md-none" data-aos="fade-right">
+                            <img src="../images/london-s-eye-711193.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-7 p-5 p-md-3">
+                            <h1>2010</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore doloribus consectetur.</p>
+                        </div>
+                        <div class="col-12 col-md-5 p-3 d-none d-md-block" data-aos="fade-left">
+                            <img src="../images/london-s-eye-711193.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </article>
+                <article class="my-5 px-3">
+                    <div class="row">
+                        <div class="col-12 col-md-5 p-3" data-aos="fade-right">
+                            <img src="../images/london-s-eye-711193.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-7 p-5 p-md-3">
+                            <h1>2010</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore doloribus consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
     <footer>
         <section class="bg-dark text-light">
@@ -229,6 +315,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+    <!-- AOS Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Sweet Scroll JS -->
+    <script src="../js/sweet-scroll.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
